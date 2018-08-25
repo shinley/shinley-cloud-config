@@ -1,7 +1,7 @@
 ﻿spring:
   profiles: test
-datasource: feign-client-test
+dataSource: feign-client-test
 ---
 spring:
   profiles: dev
-datasource: feign-client-test
+dataSource: feign-client-test

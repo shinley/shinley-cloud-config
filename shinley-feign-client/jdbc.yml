@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   profiles: test
 datasource: feign-client-test
 ---

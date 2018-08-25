@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   profiles: test
 dataSource: config-client-test
 ---

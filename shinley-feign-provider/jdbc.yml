@@ -1,4 +1,4 @@
-spring:
+﻿spring:
   profiles: dev
 dataSource: feign-provider-dev
 ---

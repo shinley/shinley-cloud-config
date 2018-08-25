@@ -3,9 +3,9 @@
     active:
     - dev
 app:
-  name: 000
+  name: dev-app-name
 ---
 spring:
   profiles: test
 app:
-  name: 001
+  name: test-app-nmae

@@ -1,1 +1,7 @@
-datasource: feign-provider
+spring:
+  profiles: dev
+dataSource: feign-provider-dev
+---
+spring:
+  profiles: test
+dataSource: feign-provider-test

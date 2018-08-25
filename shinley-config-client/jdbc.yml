@@ -1,1 +1,7 @@
-datasource: config-client
+spring:
+  profiles: test
+dataSource: config-client-test
+---
+spring:
+  profiles: dev
+dataSource: config-client-dev

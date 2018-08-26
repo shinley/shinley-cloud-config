@@ -5,10 +5,8 @@
 ---
 spring:
   profiles: dev
-  application:
-    name: microservicecloud-config-dev
+dataSource: application-dev
 ---
 spring:
   profiles: test
-  application:
-    name: microservicecloud-config-test
+dataSource: application-dev
